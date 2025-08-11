@@ -1,0 +1,28 @@
+# Document Q&A API Dependencies
+# Generated on August 11, 2025
+
+# Core AI and ML Dependencies
+faiss-cpu>=1.7.4,<2.0.0          # Fast similarity search and clustering
+sentence-transformers>=2.2.2,<3.0.0  # Pre-trained embedding models  
+numpy>=1.24.3,<2.0.0             # Numerical computations
+tiktoken>=0.5.1,<1.0.0           # Token counting for language models
+
+# PDF Processing
+PyPDF2>=3.0.1,<4.0.0             # PDF text extraction
+
+# Web Framework and API
+fastapi>=0.104.1,<1.0.0          # Modern web framework for building APIs
+uvicorn[standard]>=0.24.0,<1.0.0 # ASGI server implementation
+pydantic>=2.5.0,<3.0.0           # Data validation and parsing using Python type hints
+httpx>=0.25.2,<1.0.0             # Async HTTP client for PDF downloads
+
+# Utility Dependencies  
+python-dotenv>=1.0.0,<2.0.0      # Load environment variables from .env file
+requests>=2.31.0,<3.0.0          # HTTP library for AI API calls
+
+# Optional Development Dependencies
+# pytest>=7.4.0,<8.0.0           # Testing framework
+# black>=23.0.0,<24.0.0          # Code formatter
+# flake8>=6.0.0,<7.0.0           # Code linter
+requests==2.31.0
+python-dotenv==1.0.0
